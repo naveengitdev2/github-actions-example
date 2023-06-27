@@ -65,7 +65,7 @@ jobs:
           manifests/deployment.yaml
           manifests/service.yaml
         images: |
-          ${{ secrets.ACR_LOGIN_SERVER }}.azurecr.io/k8sflask:${{ github.sha }}
+          ${{ secrets.ACR_LOGIN_SERVER }}.azurecr.io/k8sdemo:${{ github.sha }}
         imagepullsecrets: |
           k8s-secret
 
