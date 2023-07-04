@@ -68,5 +68,3 @@ jobs:
           ${{ secrets.ACR_USERNAME }}.azurecr.io/k8sdemo:${{ github.sha }}
         imagepullsecrets: |
           k8sdemo
-
-
