@@ -48,7 +48,7 @@ jobs:
     - uses: Azure/aks-set-context@v1
       with:
         creds: '${{ secrets.AZURE_CREDENTIALS }}'
-        cluster-name: myaks
+        cluster-name: demo-aks
         resource-group: github-actions-rg
         
     - uses: Azure/k8s-create-secret@v1
